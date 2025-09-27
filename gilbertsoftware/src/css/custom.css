@@ -1,0 +1,224 @@
+/**
+ * Gilbert Software Brand Styling
+ * Based on ReSQL design system with modern tech-focused theme
+ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Brand Color Variables */
+:root {
+  /* Primary Brand - Deep Tech Blue */
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #dbeafe;
+  
+  /* Secondary - Electric Blue */
+  --ifm-color-secondary: #06b6d4;
+  --ifm-color-secondary-dark: #0891b2;
+  --ifm-color-secondary-darker: #0e7490;
+  --ifm-color-secondary-darkest: #155e75;
+  --ifm-color-secondary-light: #22d3ee;
+  --ifm-color-secondary-lighter: #67e8f9;
+  --ifm-color-secondary-lightest: #cffafe;
+  
+  /* Success */
+  --ifm-color-success: #10b981;
+  --ifm-color-success-dark: #059669;
+  --ifm-color-success-darker: #047857;
+  --ifm-color-success-darkest: #065f46;
+  --ifm-color-success-light: #34d399;
+  --ifm-color-success-lighter: #6ee7b7;
+  --ifm-color-success-lightest: #d1fae5;
+  
+  /* Warning */
+  --ifm-color-warning: #f59e0b;
+  --ifm-color-warning-dark: #d97706;
+  --ifm-color-warning-darker: #b45309;
+  --ifm-color-warning-darkest: #92400e;
+  --ifm-color-warning-light: #fbbf24;
+  --ifm-color-warning-lighter: #fcd34d;
+  --ifm-color-warning-lightest: #fef3c7;
+  
+  /* Danger */
+  --ifm-color-danger: #ef4444;
+  --ifm-color-danger-dark: #dc2626;
+  --ifm-color-danger-darker: #b91c1c;
+  --ifm-color-danger-darkest: #991b1b;
+  --ifm-color-danger-light: #f87171;
+  --ifm-color-danger-lighter: #fca5a5;
+  --ifm-color-danger-lightest: #fecaca;
+  
+  /* Info */
+  --ifm-color-info: #8b5cf6;
+  --ifm-color-info-dark: #7c3aed;
+  --ifm-color-info-darker: #6d28d9;
+  --ifm-color-info-darkest: #5b21b6;
+  --ifm-color-info-light: #a78bfa;
+  --ifm-color-info-lighter: #c4b5fd;
+  --ifm-color-info-lightest: #ede9fe;
+  
+  /* Typography */
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', 'Fira Code', 'Monaco', 'Consolas', monospace;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.6;
+  
+  /* Code */
+  --ifm-code-font-size: 95%;
+  --ifm-code-background: #f8fafc;
+  --ifm-code-color: #e11d48;
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.1);
+  
+  /* Navigation */
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.95);
+  --ifm-navbar-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  --ifm-navbar-link-color: #374151;
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+  
+  /* Footer */
+  --ifm-footer-background-color: #1f2937;
+  --ifm-footer-color: #d1d5db;
+  --ifm-footer-link-color: #9ca3af;
+  --ifm-footer-link-hover-color: #ffffff;
+  
+  /* Cards */
+  --ifm-card-background-color: #ffffff;
+  --ifm-card-border-radius: 12px;
+  --ifm-card-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  
+  /* Buttons */
+  --ifm-button-border-radius: 8px;
+  --ifm-button-font-weight: 500;
+  
+  /* Spacing */
+  --ifm-spacing-horizontal: 1.5rem;
+  --ifm-spacing-vertical: 1.5rem;
+}
+
+/* Dark theme overrides */
+[data-theme='dark'] {
+  /* Primary colors remain the same for brand consistency */
+  --ifm-color-primary: #3b82f6;
+  --ifm-color-primary-dark: #2563eb;
+  --ifm-color-primary-darker: #1d4ed8;
+  --ifm-color-primary-darkest: #1e40af;
+  --ifm-color-primary-light: #60a5fa;
+  --ifm-color-primary-lighter: #93c5fd;
+  --ifm-color-primary-lightest: #1e3a8a;
+  
+  /* Background colors */
+  --ifm-background-color: #0f172a;
+  --ifm-background-surface-color: #1e293b;
+  
+  /* Text colors */
+  --ifm-font-color-base: #f1f5f9;
+  --ifm-font-color-base-inverse: #0f172a;
+  --ifm-color-content: #cbd5e1;
+  --ifm-color-content-secondary: #94a3b8;
+  
+  /* Code */
+  --ifm-code-background: #1e293b;
+  --ifm-code-color: #f472b6;
+  --docusaurus-highlighted-code-line-bg: rgba(59, 130, 246, 0.2);
+  
+  /* Navigation */
+  --ifm-navbar-background-color: rgba(15, 23, 42, 0.95);
+  --ifm-navbar-link-color: #f1f5f9;
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary-light);
+  
+  /* Footer */
+  --ifm-footer-background-color: #020617;
+  --ifm-footer-color: #94a3b8;
+  --ifm-footer-link-color: #64748b;
+  --ifm-footer-link-hover-color: #f1f5f9;
+  
+  /* Cards */
+  --ifm-card-background-color: #1e293b;
+  --ifm-card-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom brand styling */
+.navbar__brand {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.navbar__title {
+  font-weight: 600;
+}
+
+.hero__title {
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero__subtitle {
+  font-weight: 400;
+  color: var(--ifm-color-content-secondary);
+}
+
+/* Button enhancements */
+.button--primary {
+  background: linear-gradient(135deg, var(--ifm-color-primary), var(--ifm-color-primary-dark));
+  border: none;
+  box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 0 rgba(59, 130, 246, 0.4);
+}
+
+.button--secondary {
+  background: linear-gradient(135deg, var(--ifm-color-secondary), var(--ifm-color-secondary-dark));
+  border: none;
+  box-shadow: 0 4px 14px 0 rgba(6, 182, 212, 0.3);
+  transition: all 0.3s ease;
+}
+
+.button--secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px 0 rgba(6, 182, 212, 0.4);
+}
+
+/* Card enhancements */
+.card {
+  border: 1px solid rgba(59, 130, 246, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 0 8px 25px -5px rgba(59, 130, 246, 0.1);
+}
+
+/* Code block enhancements */
+.prism-code {
+  border-radius: 12px;
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+/* Footer enhancements */
+.footer {
+  background: linear-gradient(135deg, #1f2937, #111827);
+}
+
+/* Responsive adjustments */
+@media (max-width: 996px) {
+  .hero__title {
+    font-size: 2rem;
+  }
+  
+  .hero__subtitle {
+    font-size: 1.1rem;
+  }
+}
