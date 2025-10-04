@@ -1,1 +1,0 @@
-# Gilbert Software Documentation

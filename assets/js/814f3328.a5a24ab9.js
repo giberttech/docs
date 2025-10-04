@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgilbertsoftware=self.webpackChunkgilbertsoftware||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"ReSQL Launch","permalink":"/blog/resql-launch","unlisted":false,"date":"2025-11-01T00:00:00.000Z"}]}')}}]);

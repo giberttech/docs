@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://docs.gilbert.cloud/blog</id>
+    <title>Gilbert Software Blog</title>
+    <updated>2025-11-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://docs.gilbert.cloud/blog"/>
+    <subtitle>Gilbert Software Blog</subtitle>
+    <icon>https://docs.gilbert.cloud/img/robot_logo_light.png</icon>
+    <entry>
+        <title type="html"><![CDATA[ReSQL Launch]]></title>
+        <id>https://docs.gilbert.cloud/blog/resql-launch</id>
+        <link href="https://docs.gilbert.cloud/blog/resql-launch"/>
+        <updated>2025-11-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[November 1st, 2025 - I am excited to announce the launch of ReSQL, the powerful new tool that automatically converts JSON data into clean, normalized relational database schemas.]]></summary>
+        <content type="html"><![CDATA[<p><strong>November 1st, 2025</strong> - I am excited to announce the launch of <strong>ReSQL</strong>, the powerful new tool that automatically converts JSON data into clean, normalized relational database schemas.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="what-is-resql">What is ReSQL?<a href="https://docs.gilbert.cloud/blog/resql-launch#what-is-resql" class="hash-link" aria-label="Direct link to What is ReSQL?" title="Direct link to What is ReSQL?" translate="no">​</a></h2>
+<p>ReSQL is a web application that intelligently analyzes your JSON data and generates relational database schemas with proper foreign key relationships. Whether you're working with API responses, configuration files, or complex nested data structures, ReSQL makes it easy to understand and work with your data in a structured format.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="key-features">Key Features<a href="https://docs.gilbert.cloud/blog/resql-launch#key-features" class="hash-link" aria-label="Direct link to Key Features" title="Direct link to Key Features" translate="no">​</a></h2>
+<ul>
+<li><strong>🧠 Intelligent Schema Inference</strong>: Automatically analyzes JSON structure and creates normalized relational tables</li>
+<li><strong>🔗 Smart Foreign Key Detection</strong>: Deterministically identifies and creates foreign key relationships</li>
+<li><strong>🗄️ Multiple SQL Dialects</strong>: Support for ANSI, PostgreSQL, BigQuery, Redshift, MySQL, SQL Server, Oracle, and Snowflake</li>
+<li><strong>🆔 Flexible ID Generation</strong>: Choose between consecutive integer IDs or UUIDs for primary keys</li>
+<li><strong>📊 Data Export</strong>: Export normalized data as CSV files or SQL INSERT statements</li>
+<li><strong>⚡ Performance Optimized</strong>: Web Worker-based processing for large datasets</li>
+<li><strong>🔒 Privacy First</strong>: All data processing happens locally on your machine</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="why-i-built-resql">Why I Built ReSQL<a href="https://docs.gilbert.cloud/blog/resql-launch#why-i-built-resql" class="hash-link" aria-label="Direct link to Why I Built ReSQL" title="Direct link to Why I Built ReSQL" translate="no">​</a></h2>
+<p>Working with JSON data in relational databases can be challenging. Developers often struggle with:</p>
+<ul>
+<li>Understanding the structure of complex nested JSON</li>
+<li>Manually creating database schemas</li>
+<li>Identifying relationships between data entities</li>
+<li>Converting JSON to normalized relational format</li>
+</ul>
+<p>ReSQL solves these problems by automatically analyzing your JSON and generating clean, normalized database schemas with proper relationships.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="getting-started">Getting Started<a href="https://docs.gilbert.cloud/blog/resql-launch#getting-started" class="hash-link" aria-label="Direct link to Getting Started" title="Direct link to Getting Started" translate="no">​</a></h2>
+<p>ReSQL is available as both a web application and desktop application:</p>
+<ul>
+<li><strong>Web Application</strong>: Visit <a href="https://resql.gilbert.cloud/" target="_blank" rel="noopener noreferrer">resql.gilbert.cloud</a> to start using ReSQL immediately in your browser</li>
+<li><strong>Desktop Application</strong>: <a href="https://software.gilbert.cloud/resql" target="_blank" rel="noopener noreferrer">Download for offline use</a>, better performance with large files, and native file system integration</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="privacy-and-security">Privacy and Security<a href="https://docs.gilbert.cloud/blog/resql-launch#privacy-and-security" class="hash-link" aria-label="Direct link to Privacy and Security" title="Direct link to Privacy and Security" translate="no">​</a></h2>
+<p>All data processing happens locally on your machine. Your JSON data <em>never leaves your device</em>, ensuring complete privacy and security for sensitive information. This makes ReSQL perfect for working with confidential data.</p>
+<p>In the future we may offer additional data processing options, but at the moment all data processing either occurs in your browser, or in the locally installed application (powered by Electron).</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="whats-next">What's Next?<a href="https://docs.gilbert.cloud/blog/resql-launch#whats-next" class="hash-link" aria-label="Direct link to What's Next?" title="Direct link to What's Next?" translate="no">​</a></h2>
+<p>I'm already working on exciting new features:</p>
+<ul>
+<li>Enhanced schema evolution tools</li>
+<li>Python script generation</li>
+<li>Automated processing pipeline</li>
+</ul>
+<p>Some of these will likely be paid features, but a free version will continue to remain available for the forseeable future!</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="try-resql-today">Try ReSQL Today<a href="https://docs.gilbert.cloud/blog/resql-launch#try-resql-today" class="hash-link" aria-label="Direct link to Try ReSQL Today" title="Direct link to Try ReSQL Today" translate="no">​</a></h2>
+<p>Ready to transform your JSON data into relational schemas? <a href="https://docs.gilbert.cloud/docs/resql/introduction">Get started with ReSQL</a> and see how easy it is to work with structured data.</p>
+<hr>
+<p><em>ReSQL is developed by Gilbert Software - modern software solutions to the data-driven world.</em></p>]]></content>
+        <author>
+            <name>Chris Gilbert</name>
+            <uri>https://software.gilbert.cloud</uri>
+        </author>
+        <category label="ReSQL" term="ReSQL"/>
+        <category label="JSON" term="JSON"/>
+        <category label="Database" term="Database"/>
+        <category label="Launch" term="Launch"/>
+        <category label="Product" term="Product"/>
+    </entry>
+</feed>
