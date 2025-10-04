@@ -22,7 +22,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'gilberttech', // Usually your GitHub org/user name.
+  organizationName: 'gilberttechnology', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -101,7 +101,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/gilberttech',
+          href: 'https://github.com/gilberttechnology',
           label: 'GitHub',
           position: 'right',
         },
@@ -128,7 +128,7 @@ const config: Config = {
             },
                     {
                       label: 'GitHub',
-                      href: 'https://github.com/gilberttech',
+                      href: 'https://github.com/gilberttechnology',
                     },
           ],
         },
