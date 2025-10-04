@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+resql:
+  label: ReSQL
+  permalink: /resql
+  description: ReSQL product and features
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+json:
+  label: JSON
+  permalink: /json
+  description: JSON data processing and transformation
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+database:
+  label: Database
+  permalink: /database
+  description: Database design and schema
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+launch:
+  label: Launch
+  permalink: /launch
+  description: Product launches and announcements
+
+product:
+  label: Product
+  permalink: /product
+  description: Product updates and features

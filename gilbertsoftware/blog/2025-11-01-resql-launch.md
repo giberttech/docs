@@ -9,6 +9,8 @@ tags: [resql, json, database, launch, product]
 
 **November 1st, 2025** - I am excited to announce the launch of **ReSQL**, the powerful new tool that automatically converts JSON data into clean, normalized relational database schemas.
 
+<!-- truncate -->
+
 ## What is ReSQL?
 
 ReSQL is a web application that intelligently analyzes your JSON data and generates relational database schemas with proper foreign key relationships. Whether you're working with API responses, configuration files, or complex nested data structures, ReSQL makes it easy to understand and work with your data in a structured format.
