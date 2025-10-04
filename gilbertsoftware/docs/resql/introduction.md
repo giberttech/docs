@@ -37,12 +37,11 @@ ReSQL transforms deeply nested JSON data into clean relational database formats 
 ### 📊 Data Export Options
 - **CSV Files**: Export normalized data as CSV files
 - **SQL INSERT Statements**: Generate SQL scripts for data insertion
-- **Python Scripts**: Generate Python code for data processing (optional)
+- **Python Scripts**: Generate Python code for data processing (coming soon)
 
 ### ⚡ Performance Optimized
 - **Web Worker Processing**: Handles large datasets without blocking the UI
 - **Real-time Progress**: Shows processing progress for large files
-- **Cancellation Support**: Cancel long-running operations
 
 ### 🎨 Interactive Visualization
 - **Schema Visualization**: Visual representation of generated schema with table relationships

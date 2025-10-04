@@ -4,7 +4,7 @@ ReSQL is available as both a web application and a desktop application. Choose t
 
 ## Web Application
 
-The easiest way to use ReSQL is through the web application. Simply visit the ReSQL website and start using it immediately in your browser.
+The easiest way to use ReSQL is through the web application. Simply visit the [ReSQL website](https://resql.gilbert.cloud) and start using it immediately in your browser.
 
 ### System Requirements
 
@@ -18,7 +18,6 @@ ReSQL uses modern web technologies and requires:
 - **Web Workers**: For background processing of large datasets
 - **File API**: For file upload functionality
 - **Clipboard API**: For paste functionality (optional)
-- **ES6+ Support**: For modern JavaScript features
 
 ## Desktop Application
 
@@ -29,49 +28,27 @@ For offline use, better performance with large files, and native file system int
 #### macOS
 - **macOS 10.15** (Catalina) or later
 - **Apple Silicon** (M1/M2) or **Intel** processor
-- **4GB RAM** minimum (8GB recommended for large datasets)
-- **100MB** free disk space
+- **4GB RAM** minimum
+- **500MB** free disk space
 
-#### Windows
+#### Windows (coming soon)
 - **Windows 10** or later
 - **x64** processor
-- **4GB RAM** minimum (8GB recommended for large datasets)
-- **100MB** free disk space
+- **4GB RAM** minimum
+- **500MB** free disk space
 
-#### Linux
+#### Linux (coming soon)
 - **Ubuntu 18.04** or later (or equivalent)
 - **x64** processor
-- **4GB RAM** minimum (8GB recommended for large datasets)
-- **100MB** free disk space
+- **4GB RAM** minimum
+- **500MB** free disk space
 
 ### Download and Install
 
-1. **Visit the ReSQL website**
-2. **Download** the appropriate version for your operating system
+1. **Visit the [ReSQL website](https://software.gilbert.cloud/resql)**
+2. **Download** the appropriate version for your operating system through the app store or download link.
 3. **Install** following your system's standard installation process
 
-#### macOS Installation
-```bash
-# Download the .dmg file
-# Double-click to mount
-# Drag ReSQL to Applications folder
-```
-
-#### Windows Installation
-```bash
-# Download the .exe installer
-# Run as administrator
-# Follow the installation wizard
-```
-
-#### Linux Installation
-```bash
-# Download the .AppImage file
-# Make it executable
-chmod +x ReSQL-*.AppImage
-# Run the application
-./ReSQL-*.AppImage
-```
 
 ## Configuration
 
@@ -88,7 +65,7 @@ ReSQL can be configured through the Options menu in the application interface.
 
 1. **Use the desktop application** for files larger than 50MB
 2. **Close other applications** when processing very large datasets
-3. **Enable Web Workers** (default) for better performance
+3. **Enable Web Workers** (default) for better performance in the browser
 4. **Use sampling** for initial schema analysis on very large datasets
 
 ## Troubleshooting
