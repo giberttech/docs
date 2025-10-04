@@ -29,6 +29,7 @@ const sidebars: SidebarsConfig = {
         'resql/troubleshooting',
       ],
     },
+    'privacy-policy',
   ],
 };
 

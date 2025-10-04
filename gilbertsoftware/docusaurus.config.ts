@@ -15,7 +15,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://docs.software.gilbert.cloud',
+  url: 'https://docs.gilbert.cloud',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -96,6 +96,11 @@ const config: Config = {
           position: 'right',
         },
         {
+          to: '/privacy-policy',
+          label: 'Privacy Policy',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/gilbertsoftware',
           label: 'GitHub',
           position: 'right',
@@ -111,23 +116,6 @@ const config: Config = {
             {
               label: 'Tutorial',
               to: '/docs/intro',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
             },
           ],
         },
